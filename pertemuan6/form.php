@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="read.php" method="">
+    <form action="read.php" method="post">
         <label for="nama">Nama : </label>
-        <input type="text" name="nama" require><br>
+        <input type="text" name="nama" required><br>
         <label for="nim">Nim : </label>
-        <input type="number" name="nim" require maxlength="10" minlength="3"><br>
+        <input type="number" name="nim" required maxlength="10" minlength="3"><br>
         <label for="email">Email : </label>
         <input type="text" name="email"><br>
         <button type="submit" name="submit">Kirim</button>
